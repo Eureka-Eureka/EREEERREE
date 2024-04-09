@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="446.0" prefWidth="551.0" style="-fx-background-color: #06de63" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.WorkerSystem.controller.index_controller">
+   <children>
+      <Button layoutX="148.0" layoutY="166.0" mnemonicParsing="false" onAction="#toStaffLogin" prefHeight="81.0" prefWidth="241.0" text="职工">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="148.0" layoutY="315.0" mnemonicParsing="false" onAction="#toAdminLogin" prefHeight="81.0" prefWidth="241.0" text="管理员">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Label alignment="CENTER" layoutX="67.0" layoutY="34.0" prefHeight="65.0" prefWidth="420.0" text="请选择选择要登录身份" textFill="#0a0909">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
